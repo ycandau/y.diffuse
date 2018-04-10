@@ -25,7 +25,7 @@ static t_class *diffuse_class = NULL;
 
 int C74_EXPORT main(void)
 {
-	t_class *c = class_new("diffuse~", (method)diffuse_new, (method)diffuse_free, (long)sizeof(t_diffuse), 0L, A_GIMME, 0);
+	t_class *c = class_new("y.diffuse~", (method)diffuse_new, (method)diffuse_free, (long)sizeof(t_diffuse), 0L, A_GIMME, 0);
 
 	// ====  MAX MSP METHODS  ====
 
